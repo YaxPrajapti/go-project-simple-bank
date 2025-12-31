@@ -27,6 +27,6 @@ type Transfer struct {
 	ID            int64              `json:"id"`
 	FromAccountID pgtype.Int8        `json:"from_account_id"`
 	ToAccountID   pgtype.Int8        `json:"to_account_id"`
-	Ammount       int64              `json:"ammount"`
+	Amount        int64              `json:"amount"`
 	CreatedAt     pgtype.Timestamptz `json:"created_at"`
 }
