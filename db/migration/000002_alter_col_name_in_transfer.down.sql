@@ -1,0 +1,1 @@
+ALTER TABLE transfers RENAME COLUMN amount TO ammount;
